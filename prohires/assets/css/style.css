@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Montserrat"
+}
+
+.text-white {
+    color: #fff
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(0, 73, 149);
+}
+
+.bg-blue {
+    background: #004995;
+}
+
+.bg-red {
+    background: red;
+}
+
+.top_bar a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.top_bar a i {
+    color: #fff;
+}
+
+.header_navbar .menu .nav-item {
+    font-size: 13px;
+}
+
+.header_navbar .menu li .nav-link {
+    color: #004A94;
+    transition: .2s;
+    display: block;
+}
+
+.header_navbar .menu li .nav-link:hover,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #30C46C;
+}
+
+.header_image img {
+    width: 100%;
+}
+
+
+
+.content .batch_box {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.content .batch_box h5 {
+    padding: 10px 0;
+    background: #004A94;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+.tab-content {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.tabs_box ul {
+    border-bottom: 1px solid #004A94;
+}
+
+.tabs_box ul li a {
+    padding: 10px 28px;
+}
+
+.tabs_box ul li a:hover {
+    border-top: 3px solid #004995;
+}
+
+.tabs_box .tab-pane {
+    font-size: 14px;
+    color: grey;
+}
+
+.our_courses section img {
+    height: 133px;
+    width: 100%;
+}
+
+.our_courses section {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    position: relative;
+}
+
+section .service_info {
+    position: absolute;
+    top: 10px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 24px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+    animation: move 1s 0s 1;
+    font-size: 15px;
+}
+
+@keyframes move {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(15px);
+    }
+}
+
+.our_courses section:hover .service_info {
+    display: block;
+}
+
+.our_services .service_box {
+    border: 1px dashed #004995;
+    min-height: 360px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.our_services .service_box img {
+    transition: all .3s;
+    padding: 2rem;
+}
+
+.our_services .service_box:hover {
+    background: #004995;
+    color: #fff;
+}
+
+.our_services .service_box:hover img{
+    padding: 1rem;
+}
+
+.service_box h6 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.service_box p {
+    font-size: 14px;
+}
+
+footer {
+    background: #333333;
+}
+
+footer .testimonials span {
+    color: grey;
+}
+
+footer .contact ul li {
+    font-size: 13px;
+    color: grey;
+    margin: 12px 0;
+}
+
+.footer_down {
+    background: #333333;
+}
+
+.footer_down p,
+i {
+    color: grey;
+    font-size: 14px;
+}
+
+.footer_down i:hover {
+    cursor: pointer;
+    color: #2889CA;
+    transition: .3s;
+}
+
+.section_header {
+    background: linear-gradient(to right, #182955, #244290);
+}
+
+.site_contact_info li {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.site_contact_info li:last-child {
+    border: none;
+}
+.course-widjet .card-title{
+    min-height: 50px;
+}
+.course-widjet .card-text {
+    height: 120px;
+    overflow: hidden;
+}
+.nav_section h1{
+    text-transform: uppercase;
+}
